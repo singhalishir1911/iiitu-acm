@@ -137,7 +137,7 @@ export default function Team() {
 
   return (
     <div className="bg-bg-primary min-h-screen transition-colors duration-300">
-      {"Leadership & Executive Board"}
+      {/* Page Header */}
       <div className="bg-bg-secondary border-b border-border-color">
         <div className="max-w-6xl mx-auto px-8 py-14">
           <h1 className="mt-2 text-3xl md:text-4xl font-bold tracking-tight text-text-primary">
@@ -211,115 +211,6 @@ export default function Team() {
               ))}
             </div>
           )}
-        </div>
-
-        {/* Department Verticals Showcase */}
-        <div className="pt-8 border-t border-border-color">
-          <div className="mb-10 text-center max-w-xl mx-auto">
-            <span className="acm-tag">Our Verticals</span>
-            <h2 className="text-2xl md:text-3xl font-bold text-text-primary mt-2">Engineering & Research Divisions</h2>
-            <p className="text-xs text-text-secondary mt-2 leading-relaxed">
-              We operate across key technical domains to provide specialized project groups, training paths, and collaborative environments.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Engineering Department */}
-            <div className="bg-card-bg border border-border-color rounded-2xl p-8 card-hover">
-              <div className="flex items-center gap-3 mb-6">
-                <span className="text-2xl">🛠️</span>
-                <div>
-                  <h3 className="text-lg font-bold text-text-primary">Engineering Department</h3>
-                  <p className="text-[11px] text-text-tertiary">Product Building, Systems & Application Development</p>
-                </div>
-              </div>
-
-              <div className="space-y-6">
-                <div>
-                  <div className="flex items-center justify-between border-b border-border-subtle pb-2 mb-2">
-                    <h4 className="text-sm font-bold text-text-primary">Software Engineering</h4>
-                    <span className="text-[10px] font-semibold text-acm-blue bg-acm-blue/10 px-2 py-0.5 rounded-full">Vertical</span>
-                  </div>
-                  <p className="text-xs text-text-secondary leading-relaxed mb-2">
-                    Focused on full-stack application development, systems engineering, design architectures, DevOps, and shipping production-ready products.
-                  </p>
-                  <div className="flex items-center gap-2">
-                    <span className="text-[10px] text-text-tertiary">IGL Lead:</span>
-                    <span className="text-xs font-semibold text-text-primary">Deep Shekhar Singh</span>
-                  </div>
-                </div>
-
-                <div>
-                  <div className="flex items-center justify-between border-b border-border-subtle pb-2 mb-2">
-                    <h4 className="text-sm font-bold text-text-primary">Algorithms, Logic & Problem Solving</h4>
-                    <span className="text-[10px] font-semibold text-acm-blue bg-acm-blue/10 px-2 py-0.5 rounded-full">Vertical</span>
-                  </div>
-                  <p className="text-xs text-text-secondary leading-relaxed mb-2">
-                    Nurturing high-level problem solving, competitive coding profiles, advanced data structures, and mathematical algorithm optimization.
-                  </p>
-                  <div className="flex items-center gap-2">
-                    <span className="text-[10px] text-text-tertiary">IGL Lead:</span>
-                    <span className="text-xs font-semibold text-text-primary">Aryan Raj</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Research Department */}
-            <div className="bg-card-bg border border-border-color rounded-2xl p-8 card-hover">
-              <div className="flex items-center gap-3 mb-6">
-                <span className="text-2xl">🔬</span>
-                <div>
-                  <h3 className="text-lg font-bold text-text-primary">Research Department</h3>
-                  <p className="text-[11px] text-text-tertiary">Scientific Computing, AI & Machine Learning Innovations</p>
-                </div>
-              </div>
-
-              <div className="space-y-6">
-                <div>
-                  <div className="flex items-center justify-between border-b border-border-subtle pb-2 mb-2">
-                    <h4 className="text-sm font-bold text-text-primary">Artificial Intelligence</h4>
-                    <span className="text-[10px] font-semibold text-acm-blue bg-acm-blue/10 px-2 py-0.5 rounded-full">Vertical</span>
-                  </div>
-                  <p className="text-xs text-text-secondary leading-relaxed mb-2">
-                    Exploring machine learning models, neural networks, computer vision, natural language processing, and generative AI research papers.
-                  </p>
-                  <div className="flex items-center gap-2">
-                    <span className="text-[10px] text-text-tertiary">IGL Lead:</span>
-                    <span className="text-xs font-semibold text-text-primary">Ashmeet Singh Sandhu</span>
-                  </div>
-                </div>
-
-                <div>
-                  <div className="flex items-center justify-between border-b border-border-subtle pb-2 mb-2">
-                    <h4 className="text-sm font-bold text-text-primary">Cyber Security</h4>
-                    <span className="text-[10px] font-semibold text-acm-blue bg-acm-blue/10 px-2 py-0.5 rounded-full">Vertical</span>
-                  </div>
-                  <p className="text-xs text-text-secondary leading-relaxed mb-2">
-                    Investigating offensive and defensive security, penetration testing, cryptography protocols, vulnerability assessments, and reverse engineering.
-                  </p>
-                  <div className="flex items-center gap-2">
-                    <span className="text-[10px] text-text-tertiary">IGL Lead:</span>
-                    <span className="text-xs font-semibold text-text-primary">Vishal Yadav</span>
-                  </div>
-                </div>
-
-                <div>
-                  <div className="flex items-center justify-between border-b border-border-subtle pb-2 mb-2">
-                    <h4 className="text-sm font-bold text-text-primary">Core Computer Science</h4>
-                    <span className="text-[10px] font-semibold text-acm-blue bg-acm-blue/10 px-2 py-0.5 rounded-full">Vertical</span>
-                  </div>
-                  <p className="text-xs text-text-secondary leading-relaxed mb-2">
-                    Investigating the science of data models, compiler architecture, systems programming, and database federated learning theories.
-                  </p>
-                  <div className="flex items-center gap-2">
-                    <span className="text-[10px] text-text-tertiary">IGL Lead:</span>
-                    <span className="text-xs font-semibold text-text-primary">Gaurav Upreti</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
