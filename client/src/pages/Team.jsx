@@ -137,7 +137,7 @@ export default function Team() {
 
   return (
     <div className="bg-bg-primary min-h-screen transition-colors duration-300">
-      {/* Page Header */}
+      {"Leadership & Executive Board"}
       <div className="bg-bg-secondary border-b border-border-color">
         <div className="max-w-6xl mx-auto px-8 py-14">
           <h1 className="mt-2 text-3xl md:text-4xl font-bold tracking-tight text-text-primary">
