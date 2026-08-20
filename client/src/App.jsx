@@ -8,7 +8,7 @@ import Members from './pages/Members';
 import AdminLogin from './pages/AdminLogin';
 import AdminDashboard from './pages/AdminDashboard';
 import Verticals from './pages/Verticals/index';
-import DepartmentPage from './pages/Verticals/DepartmentPage';
+import DepartmentPage from './pages/Departments/DepartmentPage';
 import './App.css';
 
 function App() {
